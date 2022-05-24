@@ -1,0 +1,802 @@
+!Workspace
+!Version 600
+!Charset WindowsSimpChinese
+Open Table "城市快速路" As 城市快速路 Interactive
+Open Table "行人道路" As 行人道路 Interactive
+Open Table "高速" As 高速 Interactive
+Open Table "国道" As 国道 Interactive
+Open Table "九级路" As 九级路 Interactive
+Open Table "轮渡" As 轮渡 Interactive
+Open Table "其它道路" As 其它道路 Interactive
+Open Table "省道" As 省道 Interactive
+Open Table "县道" As 县道 Interactive
+Open Table "乡镇村道" As 乡镇村道 Interactive
+Open Table "住宿" As 住宿 Interactive
+Open Table "餐饮" As 餐饮 Interactive
+Open Table "村" As 村 Interactive
+Open Table "大厦" As 大厦 Interactive
+Open Table "地级市" As 地级市 Interactive
+Open Table "高速服务区" As 高速服务区 Interactive
+Open Table "公安交警" As 公安交警 Interactive
+Open Table "购物" As 购物 Interactive
+Open Table "火车站" As 火车站 Interactive
+Open Table "机场" As 机场 Interactive
+Open Table "加油站" As 加油站 Interactive
+Open Table "交通出行" As 交通出行 Interactive
+Open Table "金融服务" As 金融服务 Interactive
+Open Table "科研教育" As 科研教育 Interactive
+Open Table "旅游" As 旅游 Interactive
+Open Table "其他设施" As 其他设施 Interactive
+Open Table "汽车服务" As 汽车服务 Interactive
+Open Table "省会" As 省会 Interactive
+Open Table "停车场" As 停车场 Interactive
+Open Table "县" As 县 Interactive
+Open Table "乡镇" As 乡镇 Interactive
+Open Table "休闲娱乐" As 休闲娱乐 Interactive
+Open Table "医疗服务" As 医疗服务 Interactive
+Open Table "政府机关" As 政府机关 Interactive
+Open Table "兴趣区界" As 兴趣区界 Interactive
+Open Table "岛屿" As 岛屿 Interactive
+Open Table "地铁" As 地铁 Interactive
+Open Table "功能区" As 功能区 Interactive
+Open Table "建成区界" As 建成区界 Interactive
+Open Table "绿地" As 绿地 Interactive
+Open Table "水系" As 水系 Interactive
+Open Table "铁路" As 铁路 Interactive
+Open Table "县界" As 县界 Interactive
+Set Window Info
+  Position (11.625,5.84375) Units "in"
+  Width 2.60417 Units "in" Height 5.85417 Units "in" 
+  Font ("System",0,12,0)
+Open Window Info
+Map From 省会,地级市,县,乡镇,村,政府机关,
+  金融服务,医疗服务,休闲娱乐,停车场,汽车服务,其他设施,
+  旅游,科研教育,交通出行,加油站,机场,火车站,
+  购物,公安交警,高速服务区,大厦,餐饮,住宿,
+  铁路,乡镇村道,县道,省道,其它道路,轮渡,
+  九级路,国道,高速,行人道路,城市快速路,地铁,
+  兴趣区界,功能区,岛屿,绿地,水系,建成区界,县界 
+  Position (0.0520833,0.0520833) Units "in"
+  Width 8.70833 Units "in" Height 4.44792 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 1, 104
+  Center (100.5123138,37.3926239)
+  Zoom 3.56455773e+013 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "degree"
+Set Map
+  Layer 1
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (59,16711680,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (500, 100000) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,14,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (500, 100000) Units "km"
+  Layer 2
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,14708736,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (400, 5000) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (400, 5000) Units "km"
+  Layer 3
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,15774720,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (50, 400) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (50, 400) Units "km"
+  Layer 4
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,16760832,10)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 200) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 200) Units "km"
+  Layer 5
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,16764992,9)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 30) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 30) Units "km"
+  Layer 6
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,16711680,7)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,10,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 7
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (32,22015,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 8
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (56,0,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 9
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,16728128,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 2) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 2) Units "km"
+  Layer 10
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (32,8388863,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 11
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (32,255,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 12
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (33,49344,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 0.1) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 0.1) Units "km"
+  Layer 13
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,53352,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 14
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,53248,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 15
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,3175935,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 16
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (63,16711680,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 17
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (52,255,18)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,10,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 18
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,14708736,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,10,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 19
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (32,16776960,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 20
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (61,255,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 21
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (32,13671424,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 22
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (60,8388608,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 23
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (32,65280,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 2) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 2) Units "km"
+  Layer 24
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (32,255,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 25
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,205,8421504)  Font ("Arial",0,12,0)
+    Zoom (0, 1500) Units "km" 
+    Label Line Arrow Position Above Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 1500) Units "km"
+  Layer 26
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (3,2,16768112)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,8,0,16777168) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 27
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (3,2,16767072)  Font ("Arial",0,12,0)
+    Zoom (0, 50) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,8,0,16777168) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 50) Units "km"
+  Layer 28
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (3,2,16750640)  Font ("Arial",0,12,0)
+    Zoom (0, 300) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,10,0,14745520) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 300) Units "km"
+  Layer 29
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (2,191,8421504)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 30
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (2,12,255)  Font ("Arial",0,12,0)
+    Zoom (0, 200) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,12,0,16777168) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 200) Units "km"
+  Layer 31
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (2,191,8421504)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,8,0,16777168) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 32
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (3,2,13671424)  Font ("Arial",0,12,0)
+    Zoom (0, 5000) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,12,0,14745520) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 1000) Units "km"
+  Layer 33
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (3,2,12619776)  Font ("Arial",0,12,0)
+    Zoom (0, 4000) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,12,0,14745520) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 500) Units "km"
+  Layer 34
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (2,56,16756832)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,8,0,16777168) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 35
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (2,2,14737408)  Font ("Arial",0,12,0)
+    Zoom (0, 1000) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,10,0,14745520) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 1000) Units "km"
+  Layer 36
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 20) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 20) Units "km"
+  Layer 37
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Label Line Arrow Position Right Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 38
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 39
+    Display Global
+    Global Pen (1,2,13684944)  Brush (2,12632256,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 50) Units "km" 
+    Label Line None Position Center Font ("Arial",256,10,0,14745520) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 50) Units "km"
+  Layer 40
+    Display Global
+    Global Pen (1,1,0)  Brush (2,9502608,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 50) Units "km" 
+    Label Line None Position Center Font ("Arial",0,8,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 50) Units "km"
+  Layer 41
+    Display Global
+    Global Pen (1,1,7381247)  Brush (2,8432639,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 2500) Units "km" 
+    Label Line None Position Center Font ("Arial",0,8,255) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 300) Units "km"
+  Layer 42
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 43
+    Display Global
+    Global Pen (1,2,8421504)  Brush (1,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 300) Units "km" 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Map Layer 35 Editable
+Set Window FrontWindow() Printer
+ Name "Microsoft XPS Document Writer" Orientation Portrait Copies 1
+ Papersize 9
+Map From 乡镇 
+  Position (0.0520833,0.0520833) Units "in"
+  Width 7.07292 Units "in" Height 3.22917 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 1, 0
+  Center (117.2542639,31.876162)
+  Zoom 52.53244546 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "degree"
+Set Map
+  Layer 1
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Label Line Arrow Position Right Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Window FrontWindow() Printer
+ Name "Microsoft XPS Document Writer" Orientation Portrait Copies 1
+ Papersize 9
+Map From 省会,地级市,县,乡镇,村,政府机关,
+  金融服务,医疗服务,休闲娱乐,停车场,汽车服务,旅游,
+  科研教育,交通出行,加油站,机场,火车站,购物,
+  公安交警,高速服务区,大厦,餐饮,住宿,其他设施,
+  铁路,高速,城市快速路,国道,省道,县道,
+  乡镇村道,其它道路,轮渡,九级路,行人道路,地铁,
+  兴趣区界,功能区,岛屿,绿地,水系,建成区界,县界 
+  Position (0.0520833,0.0520833) Units "in"
+  Width 8.70833 Units "in" Height 4.44792 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 1, 104
+  Center (114.8183286,38.08427994)
+  Zoom 123.0809377 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "degree"
+Set Map
+  Layer 1
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (59,16711680,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (500, 100000) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",256,12,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (500, 100000) Units "km"
+  Layer 2
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (45,16711680,10,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (400, 5000) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",256,11,9474192,15790320) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (400, 5000) Units "km"
+  Layer 3
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (44,16711680,8,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (50, 400) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,10,6316128,13428943) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (50, 400) Units "km"
+  Layer 4
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (42,16711680,7,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 200) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",256,10,7368816,16777215) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 200) Units "km"
+  Layer 5
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (44,13144319,5,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 30) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 30) Units "km"
+  Layer 6
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (41,16736352,4,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 7
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (41,8388736,5,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,5263440) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 8
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (49,16732240,8,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 9
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (39,8388736,5,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 2) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 2) Units "km"
+  Layer 10
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (33,14708736,5,"MapInfo Symbols",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,5263440) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 11
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (33,8388608,3,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 12
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (65,6332416,7,"MapInfo Miscellaneous",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 13
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (56,16749680,8,"Wingdings",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 14
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,3175935,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 15
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (33,8388608,3,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,5263440) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 16
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (52,128,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 17
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (83,128,12,"MapInfo Transportation",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 18
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (123,16711935,8,"MapInfo Miscellaneous",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 3) Units "km"
+  Layer 19
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (79,16743504,5,"Wingdings",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 20
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (33,13671424,3,"MapInfo Cartographic",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",256,10,0,13428943) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 21
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (34,128,3)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",256,9,7368816,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 22
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (65,4227327,7,"MapInfo Real Estate",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 2) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,7368816) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 2) Units "km"
+  Layer 23
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (81,8388736,6,"MapInfo Miscellaneous",0,0)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Right Font ("微软雅黑",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 24
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (33,49344,5)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 3) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",0,9,6316128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 25
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,73,9474192)  Font ("Arial",0,12,0)
+    Zoom (0, 1500) Units "km" 
+    Label Line Arrow Position Above Font ("微软雅黑",256,10,0,15790320) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 1500) Units "km"
+  Layer 26
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (45,249,16760832)  Font ("Arial",0,12,0)
+    Zoom (0, 4000) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,12,255,15790320) Pen (1,2,0) 
+      With name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 500) Units "km"
+  Layer 27
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (45,249,15387689)  Font ("Arial",0,12,0)
+    Zoom (0, 1000) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,12,3158271,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 1000) Units "km"
+  Layer 28
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (45,249,15387689)  Font ("Arial",0,12,0)
+    Zoom (0, 5000) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,12,16744448,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 1000) Units "km"
+  Layer 29
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (45,249,15387689)  Font ("Arial",0,12,0)
+    Zoom (0, 300) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,11,14708736,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 300) Units "km"
+  Layer 30
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (35,249,15851663)  Font ("Arial",0,12,0)
+    Zoom (0, 50) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,10,16750640,15790320) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 50) Units "km"
+  Layer 31
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (35,249,15851663)  Font ("Arial",0,12,0)
+    Zoom (0, 10) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,10,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 10) Units "km"
+  Layer 32
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (30,191,15790320)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,10,0,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 33
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,12,255)  Font ("Arial",0,12,0)
+    Zoom (0, 200) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",256,12,0,16777168) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 200) Units "km"
+  Layer 34
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (25,191,14737632)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,10,0,16777168) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 35
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (25,191,12632256)  Font ("Arial",0,12,0)
+    Zoom (0, 5) Units "km" 
+    Label Line Arrow Position Center Font ("微软雅黑",256,10,0,16777168) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 5) Units "km"
+  Layer 36
+    Display Global
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,16719904)  Font ("Arial",0,12,0)
+    Zoom (0, 20) Units "km" 
+    Label Line Arrow Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 20) Units "km"
+  Layer 37
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 100000) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 38
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 100000) Units "km" 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 39
+    Display Global
+    Global Pen (1,1,13684944)  Brush (2,15790320,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 50) Units "km" 
+    Label Line None Position Center Font ("Arial",256,10,0,14745520) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility Zoom (0, 50) Units "km"
+  Layer 40
+    Display Global
+    Global Pen (1,1,0)  Brush (2,12508340,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 50) Units "km" 
+    Label Line None Position Center Font ("微软雅黑",256,10,45056,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 50) Units "km"
+  Layer 41
+    Display Global
+    Global Pen (1,1,7381247)  Brush (2,10468837,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 100) Units "km" 
+    Label Line None Position Center Font ("微软雅黑",256,10,255,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 300) Units "km"
+  Layer 42
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 43
+    Display Global
+    Global Pen (1,2,11711154)  Brush (2,16184558,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,12,0)
+    Zoom (0, 300) Units "km" Off 
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With NAME
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Map Layer 43 Editable
+Set Window FrontWindow() Printer
+ Name "Microsoft XPS Document Writer" Orientation Portrait Copies 1
+ Papersize 9
+Dim WorkspaceMaximizedWindow As Integer
+WorkspaceMaximizedWindow = Frontwindow()
+Set Window WorkspaceMaximizedWindow Max
+Undim WorkspaceMaximizedWindow

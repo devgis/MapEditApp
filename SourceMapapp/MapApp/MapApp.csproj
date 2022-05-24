@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E62B8AC-3A54-4CE6-99E9-CB6F149DCE76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Devgis.MapApp</RootNamespace>
+    <AssemblyName>MapApp</AssemblyName>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MapInfo.Windows.Framework, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1, processorArchitecture=x86" />
+    <Reference Include="MapInfo.Windows.Printing, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1, processorArchitecture=x86" />
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="MapInfo.CoreEngine, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.CoreEngine.Wrapper, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.CoreTypes, Version=6.8.0.536, Culture=neutral, PublicKeyToken=f548bcba69d4b8da">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.CommonDialogExt, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.Windows, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.Windows.Dialogs, Version=6.8.0.536, Culture=neutral, PublicKeyToken=93e298a0f6b95eb1">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapInfo.Wms.Client, Version=6.8.0.536, Culture=neutral, PublicKeyToken=4ac3224575145b20">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFeature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFeature.Designer.cs">
+      <DependentUpon>AddFeature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataInfo.Designer.cs">
+      <DependentUpon>DataInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enum.cs" />
+    <Compile Include="GISHelper.cs" />
+    <Compile Include="InfoBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoBox.Designer.cs">
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMap.Designer.cs">
+      <DependentUpon>MainMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapTool.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFeature.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddFeature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMap.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearcgWorksForm.resx">
+      <DependentUpon>SearcgWorksForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PublicDim.cs" />
+    <Compile Include="SearcgWorksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearcgWorksForm.designer.cs">
+      <DependentUpon>SearcgWorksForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\007.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\009.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\010.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\013.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\014.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\015.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\016.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\017.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\018.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\019.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\020.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\021.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\022.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\023.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\024.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\025.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\026.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\027.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\028.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\029.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\031.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\032.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\033.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\034.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\035.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\036.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\037.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\038.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\039.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\040.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\041.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\042.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\043.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\044.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\045.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\046.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\047.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\048.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\049.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\050.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\getst.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapControl.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PANTOOL.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printtool.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuanxin.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\按长度显示.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\按宽度显示.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\帮助.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保存.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保存工作空间.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\编辑节点.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\表面积计算.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\捕捉设置.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\查看对象属性.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\查询高程.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\查询记录.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\檫除.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\檫除外部.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\拆分.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\撤消.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\垂直等距.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\垂直居中.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\垂直水平等距.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\刺点.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打断.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打开.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打印.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\大图标.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\倒圆角.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\倒直角.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\等高.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\等宽.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\点重合.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\定位复制.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\多边形选择.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\放大.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\放大布局.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\放大地图.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\分解对象.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\风格刷.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\复制.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\改变线方向.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\跟踪回退.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\跟踪设置.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\工作空间.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\构建带孔多边形.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\固定长度.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\固定角度.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\关于.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\合并.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\后退.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\后一视图.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\画面分割.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\环游.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\恢复.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\回放.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\回放飞行路径.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制比例尺.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制表格.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制地图.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制点.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制多边形.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制多线段.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制方向标.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制弧.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制弧段.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制矩形.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制两点圆.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制平行四边形.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制平行线.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制曲线.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制三点弧线.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制三点圆.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制图例.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制图片.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制椭圆.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制文本.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制文字.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制线.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制斜椭圆.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制艺术字.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制圆角.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制圆角矩形.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制圆心半径圆.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制折线.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制直线.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绘制自由曲线.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\计算误差.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\剪切.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\降序.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\交集取反.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\镜像.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\局部放大.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\局部缩小.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绝对大小.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绝对居中.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\可视范围.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\跨图层编辑.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\连接线对象.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\两点通视.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\量算角度.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\量算距离.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\量算面积.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\列表.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\列设置.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\录制.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\漫游1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\漫游2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\漫游.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\漫游布局.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\漫游地图.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\配准.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\偏移.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\平移.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\剖面图.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\前进.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\前一视图.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\求交.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\曲线光滑.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\全幅显示.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\全屏显示.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绕X轴旋转.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绕Y轴旋转.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\绕Z轴旋转.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\上对齐.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\上条记录.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\上移到顶层.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\上移一层.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\设置点风格.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\设置飞行路径.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\设置面风格.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\设置三维背景.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\设置文本风格.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\设置线风格.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\升序.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\首记录.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\输出窗口.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\鼠标查询高程.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\刷新.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\水平等距.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\水平居中.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\缩小.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\缩小布局.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\缩小地图.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\锁定地图.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\提取等值线.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\填充背景色.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\填充前景色.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\停止.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\统计.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\图层管理.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\网格捕捉.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\尾记录.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\下沉到底层.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\下对齐.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\下条记录.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\下移一层.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\显示网格.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\显隐工作空间管理器.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\线垂直.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\线水平.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\线条或点状符号的颜色.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\相交.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\详细信息.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\向上一级.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\小图标.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新建.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\修剪到线段.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\旋转.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\选择.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\选择物体.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\淹没模拟.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\延伸到线段.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\沿线标注.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\移动对象.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\右对齐.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\圆形选择.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\在现上.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\在延长线上.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\在中点.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\增加节点.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\炸碎.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\粘贴.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\重采样.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\重新执行.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\属性刷.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自动打断线.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自动跟踪面.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自动跟踪现.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自动切割面.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自动移屏.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自由缩放1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自由缩放2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自由缩放.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\组合.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\组合对象.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\最高点.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\左对齐.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Identify.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="g.ico" />
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+E:\WORK\2014\MapEdit\Code\Common\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\2014\MapEdit\Code\Release\Common.dll
+E:\WORK\2014\MapEdit\Code\Release\Common.pdb
+E:\WORK\2014\MapEdit\Code\Common\obj\Debug\Common.dll
+E:\WORK\2014\MapEdit\Code\Common\obj\Debug\Common.pdb

@@ -1,0 +1,10 @@
+bin\Debug\MapApp.exe.config
+obj\Debug\MapApp.exe
+obj\Debug\MapApp.pdb
+bin\Debug\MapApp.exe
+bin\Debug\MapApp.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Devgis.MapApp.MainMap.resources
+obj\Debug\Devgis.MapApp.Properties.Resources.resources
+obj\Debug\MapApp.csproj.GenerateResource.Cache
+obj\Debug\Devgis.MapApp.AboutBox.resources

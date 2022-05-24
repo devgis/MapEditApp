@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="045" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\045.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="首记录" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\首记录.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="录制" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\录制.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新建" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新建.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="垂直居中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\垂直居中.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="下移一层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\下移一层.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绕Y轴旋转" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绕Y轴旋转.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="列表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\列表.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制圆角" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制圆角.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="帮助" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\帮助.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\032.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="050" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\050.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="等高" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\等高.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\029.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="自动跟踪现" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\自动跟踪现.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="计算误差" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\计算误差.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="028" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\028.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\043.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="后退" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\后退.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="重采样" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\重采样.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="左对齐" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\左对齐.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="统计" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\统计.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置三维背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\设置三维背景.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\010.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="右对齐" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\右对齐.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="放大地图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\放大地图.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="全幅显示" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\全幅显示.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制三点圆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制三点圆.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩小地图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩小地图.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="降序" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\降序.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="刷新" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\刷新.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制多线段" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制多线段.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="升序" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\升序.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="线水平" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\线水平.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="015" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\015.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\026.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制线.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="移动对象" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\移动对象.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置面风格" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\设置面风格.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制三点弧线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制三点弧线.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="漫游2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\漫游2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="在延长线上" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\在延长线上.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="画面分割" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\画面分割.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\025.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="自由缩放" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\自由缩放.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="组合" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\组合.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="拆分" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\拆分.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制自由曲线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制自由曲线.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置飞行路径" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\设置飞行路径.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="改变线方向" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\改变线方向.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\022.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\选择.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="沿线标注" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\沿线标注.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绝对大小" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绝对大小.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制点.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按长度显示" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\按长度显示.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="连接线对象" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\连接线对象.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\004.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\014.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\021.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="配准" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\配准.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小图标" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\小图标.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置点风格" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\设置点风格.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\005.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="选择物体" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\选择物体.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="求交" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\求交.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撤消" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\撤消.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="量算面积" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\量算面积.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="分解对象" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\分解对象.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="自动切割面" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\自动切割面.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打印" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\打印.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="上对齐" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\上对齐.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="037" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\037.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="查看对象属性" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\查看对象属性.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="多边形选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\多边形选择.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="定位复制" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\定位复制.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="构建带孔多边形" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\构建带孔多边形.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制文字" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制文字.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="鼠标查询高程" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\鼠标查询高程.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\048.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="后一视图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\后一视图.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="局部缩小" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\局部缩小.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="在现上" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\在现上.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="047" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\047.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制斜椭圆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制斜椭圆.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="旋转" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\旋转.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="淹没模拟" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\淹没模拟.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="049" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\049.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shuanxin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shuanxin.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="查询高程" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\查询高程.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="工作空间" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\工作空间.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="放大" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\放大.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="044" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\044.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="查询记录" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\查询记录.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="组合对象" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\组合对象.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="前一视图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\前一视图.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="水平居中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\水平居中.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="前进" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\前进.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="下对齐" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\下对齐.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="表面积计算" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\表面积计算.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="复制" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\复制.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="檫除外部" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\檫除外部.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制圆心半径圆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制圆心半径圆.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩小" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩小.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\保存.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制地图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制地图.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="大图标" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\大图标.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="图层管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\图层管理.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\042.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PANTOOL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PANTOOL.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="剪切" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\剪切.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="下条记录" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\下条记录.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="显示网格" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\显示网格.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="自动打断线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\自动打断线.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="捕捉设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\捕捉设置.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\041.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="下沉到底层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\下沉到底层.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="编辑节点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\编辑节点.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="显隐工作空间管理器" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\显隐工作空间管理器.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="039" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\039.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="垂直等距" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\垂直等距.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="倒直角" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\倒直角.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="交集取反" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\交集取反.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="点重合" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\点重合.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="锁定地图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\锁定地图.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="尾记录" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\尾记录.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\023.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="偏移" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\偏移.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="属性刷" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\属性刷.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制多边形" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制多边形.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="回放" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\回放.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\018.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制两点圆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制两点圆.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="漫游" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\漫游.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="027" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\027.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="上移一层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\上移一层.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="停止" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\停止.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="漫游布局" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\漫游布局.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="檫除" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\檫除.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="跨图层编辑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\跨图层编辑.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="局部放大" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\局部放大.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\019.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="详细信息" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\详细信息.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="圆形选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圆形选择.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存工作空间" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\保存工作空间.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制艺术字" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制艺术字.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绕X轴旋转" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绕X轴旋转.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="038" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\038.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="输出窗口" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\输出窗口.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="填充背景色" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\填充背景色.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\020.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="刺点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\刺点.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\017.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打开" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\打开.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="放大布局" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\放大布局.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="填充前景色" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\填充前景色.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\008.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="最高点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\最高点.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打断" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\打断.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="水平等距" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\水平等距.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制文本" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制文本.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="列设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\列设置.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="自由缩放1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\自由缩放1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="量算角度" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\量算角度.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制折线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制折线.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="046" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\046.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\009.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\031.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="自由缩放2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\自由缩放2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Identify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Identify.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="曲线光滑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\曲线光滑.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\002.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制表格" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制表格.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="粘贴" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\粘贴.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制矩形" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制矩形.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制平行线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制平行线.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="修剪到线段" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\修剪到线段.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="网格捕捉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\网格捕捉.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="两点通视" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\两点通视.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="035" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\035.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制比例尺" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制比例尺.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toolbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toolbar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="getst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\getst.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="漫游地图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\漫游地图.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制圆角矩形" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制圆角矩形.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="可视范围" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\可视范围.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按宽度显示" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\按宽度显示.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\011.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="在中点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\在中点.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="延伸到线段" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\延伸到线段.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="重新执行" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\重新执行.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="等宽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\等宽.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="炸碎" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\炸碎.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制直线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制直线.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MapControl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MapControl.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制椭圆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制椭圆.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\012.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="垂直水平等距" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\垂直水平等距.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="固定长度" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\固定长度.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="恢复" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\恢复.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制图例" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制图例.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="跟踪设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\跟踪设置.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="环游" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\环游.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置文本风格" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\设置文本风格.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制平行四边形" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制平行四边形.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩小布局" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩小布局.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\040.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="向上一级" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\向上一级.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printtool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printtool.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="漫游1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\漫游1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\024.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绕Z轴旋转" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绕Z轴旋转.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="剖面图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\剖面图.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="回放飞行路径" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\回放飞行路径.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="关于" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\关于.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\003.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="036" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\036.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\001.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="增加节点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\增加节点.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\013.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="线垂直" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\线垂直.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="风格刷" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\风格刷.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="提取等值线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\提取等值线.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\033.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="倒圆角" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\倒圆角.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="自动移屏" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\自动移屏.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="镜像" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\镜像.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置线风格" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\设置线风格.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="跟踪回退" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\跟踪回退.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\034.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="上移到顶层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\上移到顶层.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制曲线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制曲线.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="上条记录" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\上条记录.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绝对居中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绝对居中.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制弧段" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制弧段.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="自动跟踪面" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\自动跟踪面.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="全屏显示" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\全屏显示.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\007.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\016.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="平移" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\平移.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="合并" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\合并.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="量算距离" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\量算距离.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="固定角度" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\固定角度.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制弧" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制弧.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="线条或点状符号的颜色" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\线条或点状符号的颜色.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制方向标" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制方向标.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制图片" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\绘制图片.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="相交" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\相交.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\g.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

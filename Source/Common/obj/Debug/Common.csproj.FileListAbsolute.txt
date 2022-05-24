@@ -1,0 +1,10 @@
+D:\Work\MapEdit\Release\Common.dll
+D:\Work\MapEdit\Release\Common.pdb
+D:\Work\MapEdit\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\MapEdit\Common\obj\Debug\Common.dll
+D:\Work\MapEdit\Common\obj\Debug\Common.pdb
+D:\Github\2014_MapEdit\Source\Release\Common.dll
+D:\Github\2014_MapEdit\Source\Release\Common.pdb
+D:\Github\2014_MapEdit\Source\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Github\2014_MapEdit\Source\Common\obj\Debug\Common.dll
+D:\Github\2014_MapEdit\Source\Common\obj\Debug\Common.pdb

@@ -1,0 +1,10 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 3
+    Name Char (128) ;
+    PYName Char (128) ;
+    Kind Char (30) ;
